@@ -1,0 +1,8 @@
+---
+database:
+    database_type: mysql
+    database_name: u10627ijf_antland
+    server: mysql2.justhost.ru
+    username: u10627ijf_ant
+    password: ip7o6QTS
+    charset: utf8

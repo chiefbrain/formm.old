@@ -1,0 +1,160 @@
+/* #######################  VOPROS  ################################### */
+/*#fon {
+top:0;
+left:0;
+width:100%;
+height:100%;
+position:fixed;
+background:#000;
+opacity: 0.7;
+filter: alpha(opacity = 70);
+display:none;
+z-index:1000;
+}
+#win {
+width:400px;
+/*height:200px;*/
+/*margin-left:-200px;
+left:50%;
+/*margin-top:-50px;*/
+/*top:20px;
+position:fixed;
+background:#fff;
+border:3px solid #e64117;
+padding:10px;
+display:none;
+z-index:1000;
+}
+
+/* #######################  ADD MENU  ################################### */
+/*.add_menu {
+list-style: none;
+display:inline;
+}
+.add_menu li{
+float:left;
+position: relative;
+cursor:pointer;
+}
+.add_menu li ul {
+list-style:none;position: absolute;left:30px;background:#faf9ed;border: 1px solid #0c6a9c;
+}
+
+.add_menu li ul li {
+width:120px;margin:3px;
+}*/
+/* #######################  LOGIN FORMS  ################################### */
+.login_passw {
+margin-right:10px;
+width: 150px;
+height:15px;
+border:1px solid #ccc;
+background:none;
+color: #555;
+font-size:80%;
+}
+.login_form_button {
+margin-right:10px;
+border:none;
+background:none;
+color: #555;
+font-size:80%;
+cursor:pointer;
+}
+/* #######################  FORMS  ################################### */
+.button {
+/*background:#262626;
+color: #d3d3d3;
+/*border-color:#E64117;*/
+/*border:none;
+border-bottom: 3px solid #E64117;
+/*font:15px sans-serif;*/
+cursor:pointer;
+}
+.forma {
+margin-left: 50%;
+position: relative;
+left: -200px;
+width: 400px;
+background: #FAF9ED;
+color:#555;
+font-weight:400;
+border: 1px solid #555;
+	border-radius:6px;
+	box-shadow: 3px 3px 10px rgba(0,0,0,0.5);
+}
+
+.ftitle {
+padding: 2px;
+background: #ccc;/*#262626;*/
+color: #f90;/*#d3d3d3;*/
+/*border: 1px solid #800;*/
+text-align: center;
+border-radius:6px 6px 0 0;
+}
+.forma2 {
+padding: 0 15px 10px;
+/*border-top: 1px solid #800;*/
+border-top: 3px solid #f90;
+}
+.name {
+margin:5px 0 2px;
+}
+.name2 {
+margin-bottom:2px;
+}
+
+.pole {
+/*margin-left: -1px;*/
+width: 100%;
+height: 15px;
+background:#fff;
+/*color: #555;*/
+border: 1px solid #555;
+/*font-size: 13px;*/
+}
+.forma textarea {
+/*margin-left:-1px;*/
+width:100%;
+height:100px;
+background:#fff;
+color:#555;
+border:1px solid #555;
+/*font:13px sans-serif;*/
+}
+.file {
+width:368px;
+height:20px;
+background:#fff;
+color:#555;
+border:1px solid #555;
+/*font:13px sans-serif;*/
+cursor:pointer; 
+}
+
+.fcap {
+width: 100%;
+margin-top: 10px;
+overflow: auto;
+}
+.captcha {
+float: left;
+cursor:pointer; 
+/*margin:10px 0 0;*/
+}
+
+.fbott {
+margin-top:5px;
+text-align: center;
+}
+/* ###########################  UNITAB  ############################### */
+.top_block {width:100%;margin-bottom:10px;table-layout:fixed;}
+.td1_block {width:15%;}
+.td2_block {text-align:center;font-size:large;font-weight:900;}
+.tab_block {width:100%;table-layout:fixed;border-collapse: collapse;font-size:80%}
+.tab_block th, .tab_block td {border: 1px solid #aaa;/*text-align:center;*/padding:3px;}
+
+.inp_block {width:86%}
+.img_block {width:16px;height:16px;border:0;}
+
+/* ########################################################## */

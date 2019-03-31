@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<iframe
+        id="iframe"
+        src="https://formm.ru/big.html"
+        style='width: 100%;'
+        frameborder=0
+        marginheight=0
+        marginwidth=0
+        >
+
+</iframe>
+
+<script>
+    // o=this.contentWindow.document.body; this.style.height=o.scrollHeight; this.style.height=o.scrollHeight-o.clientHeight+o.offsetHeight;
+    function onl(o) {
+        //console.log(o.contentWindow.document.body);
+        console.log(o.scrollHeight);
+        console.log(o.scrollingElement);
+        console.log(o.scrollbars);
+        console.log(o.scrolling);
+        //o.style.height = o.scrollHeight;
+
+        console.log(o.contentWindow.window);
+    }
+
+    let iframe = document.getElementById("iframe");
+    iframe.onload = function () {
+        onl(iframe);
+    }
+
+    console.log(iframe);
+
+
+</script>
+
+</body>
+</html>

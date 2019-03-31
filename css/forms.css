@@ -1,0 +1,20 @@
+/* ########################################################## */
+.inpc {
+cursor:pointer;
+}
+#pmenu td {
+background:#ffb;
+/*overflow:hidden;*/
+}
+#pmenu td:hover {
+background:#0ff;
+}
+
+.mul {
+list-style:none;
+padding:0;
+}
+.mul li {
+margin-bottom:5px;
+}
+/*################################################*/

@@ -1,0 +1,30 @@
+{
+    "require": {
+        "ext-iconv": "*",
+
+        "slim/slim": "^3.8",
+        "catfan/medoo": "^1.2",
+        "mustangostang/spyc": "^0.6",
+        "leafo/lessphp": "^0.5",
+        "bootstrap/dist"    : "3.3.7",
+        "phpmailer/phpmailer": "^6.0"
+    },
+    "repositories":[
+        {
+            "type":"package",
+            "package":{
+                "name":"bootstrap/dist",
+                "version":"3.3.7",
+                "dist":{
+                    "type":"zip",
+                    "url":"https://github.com/twbs/bootstrap/releases/download/v3.3.7/bootstrap-3.3.7-dist.zip"
+                }
+            }
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "App"     : "./"
+        }
+    }
+}

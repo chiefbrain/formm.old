@@ -1,0 +1,106 @@
+<form action="http://www.formm.ru/mail/" enctype="multipart/form-data" method="post" onsubmit="return formm.sub(this);">
+
+    <input name="check" type="hidden" value="name:Ваше имя?!.email:Укажите правильный e-mail!.captcha:Ошибка в проверочном коде!" />
+    <input name="subject" type="hidden" value="Заявка на получение статуса организатора" />
+    <input name="colors" type="hidden" value="ffffff.dfdfd2.120088.3d45cc" />
+    <input name="colorn" type="hidden" value="#2A1AB5" />
+
+    <div style="margin-left:50%;position:relative; left:-250px; width:600px;background:#dfdfd2;color:#120088;border:1px solid #3d45cc;font:12px sans-serif;">
+        <div style="padding:13px;background:#4b52c8;color:#f9f9f7;border:1px solid #2a1ab5;text-align:center;">
+            <strong>Форма заявки на получение статуса организатора</strong>
+        </div>
+
+        <div style="padding:0 15px 10px 15px;border-top:solid 1px #3d45cc;">
+            <div style="margin-top:10px;">Фамилия, Имя, Отчество</div>
+            <input name="d[1][label]" type="hidden" value="ФИО" />
+            <input name="d[1][type]" type="hidden" value="name" />
+            <input name="d[1][value]" maxlength="50"  style="margin-left:-1px;width:100%;height:30px;background:#ffffff;color:#030000;border:1px solid #4640cd;font:13px sans-serif;" type="text" />
+
+            <div style="margin-top:10px;">Обратный e-mail</div>
+            <input name="d[1][label]" type="hidden" value="email" />
+            <input name="d[1][type]" type="hidden" value="email" />
+            <input name="d[1][value]" maxlength="50"  style="margin-left:-1px;width:100%;height:30px;background:#ffffff;color:#030000;border:1px solid #4640cd;font:13px sans-serif;" type="text" />
+
+            <div style="margin-top:10px;">Ваш ник на сайте</div>
+            <input name="d[1][label]" type="hidden" value="Ник на сайте" />
+            <input name="d[1][type]" type="hidden" value="text" />
+            <input name="d[1][value]" maxlength="50"  style="margin-left:-1px;width:100%;height:30px;background:#ffffff;color:#030000;border:1px solid #4640cd;font:13px sans-serif;" type="text" />
+
+            <div style="margin-top:10px;">Ссылка на Ваш профиль</div>
+            <input name="dpn[]" type="hidden" value="Ссылка на профиль" />
+            <input maxlength="50" name="dp[]" style="margin-left:-1px;width:100%;height:30px;background:#ffffff;color:#030000;border:1px solid #4640cd;font:13px sans-serif;" type="text" />
+
+            <div style="margin-top:10px;">Дата рождения</div>
+            <input name="dpn[]" type="hidden" value="Дата рождения" />
+            <input maxlength="50" name="dp[]" style="margin-left:-1px;width:100%;height:30px;background:#ffffff;color:#030000;border:1px solid #4640cd;font:13px sans-serif;" type="text" />
+
+            <div style="margin-top:10px;">№ телефона</div>
+            <input name="dpn[]" type="hidden" value="№ телефона" />
+            <input maxlength="50" name="dp[]" style="margin-left:-1px;width:100%;height:30px;background:#ffffff;color:#030000;border:1px solid #4640cd;font:13px sans-serif;" type="text" />
+
+            <div style="margin-top:10px;">Адрес по прописке</div>
+            <input name="dpn[]" type="hidden" value="Адрес по прописке" />
+            <input maxlength="50" name="dp[]" style="margin-left:-1px;width:100%;height:30px;background:#ffffff;color:#030000;border:1px solid #4640cd;font:13px sans-serif;" type="text" />
+
+            <div style="margin-top:10px;">Адрес места жительства (если не совпадает с пропиской)</div>
+            <input name="dpn[]" type="hidden" value="Адрес места жительства" />
+            <input maxlength="50" name="dp[]" style="margin-left:-1px;width:100%;height:30px;background:#ffffff;color:#030000;border:1px solid #4640cd;font:13px sans-serif;" type="text" />
+
+            <div style="margin-top:10px;">Паспортные данные (серия, номер, когда выдан и кем)</div>
+            <input name="dpn[]" type="hidden" value="Паспортные данные" />
+            <input maxlength="50" name="dp[]" style="margin-left:-1px;width:100%;height:30px;background:#ffffff;color:#030000;border:1px solid #4640cd;font:13px sans-serif;" type="text" />
+
+            <div style="margin-top:10px;">Прикрепить скан паспорта</div>
+            <input name="file[]" multiple="multiple" style="width:100%;background:#ffffff;color:#030000;border:1px solid #4640cd;font:13px sans-serif;cursor:pointer;padding: 3px 0;" type="file" />
+
+            <div style="margin-top:10px;">Где собираетесь проводить встречи (город, метро и т.д.)</div>
+            <input name="dpn[]" type="hidden" value="Где проводить встречи" />
+            <input maxlength="50" name="dp[]" style="margin-left:-1px;width:100%;height:30px;background:#ffffff;color:#030000;border:1px solid #4640cd;font:13px sans-serif;" type="text" />
+
+            <div style="margin-top:10px;">Сайт поставщика (прикрепить оптовый прайс или данные для просмотра оптовых цен</div>
+            <input name="dpn[]" type="hidden" value="Сайт поставщика" />
+            <input maxlength="50" name="dp[]" style="margin-left:-1px;width:100%;height:30px;background:#ffffff;color:#030000;border:1px solid #4640cd;font:13px sans-serif;" type="text" />
+
+            <div style="margin-top:10px;">Прикрепить оптовый прайс</div>
+            <input name="file[]" multiple="multiple" style="width:100%;background:#ffffff;color:#030000;border:1px solid #4640cd;font:13px sans-serif;cursor:pointer;padding: 3px 0;" type="file" />
+
+            <div style="margin-top:10px;">Прикрепить оптовый прайс</div>
+            <input name="file[]" multiple="multiple" style="width:100%;background:#ffffff;color:#030000;border:1px solid #4640cd;font:13px sans-serif;cursor:pointer;padding: 3px 0;" type="file" />
+
+            <div style="margin-top:10px;">Прикрепить оптовый прайс</div>
+            <input name="file[]" multiple="multiple" style="width:100%;background:#ffffff;color:#030000;border:1px solid #4640cd;font:13px sans-serif;cursor:pointer;padding: 3px 0;" type="file" />
+
+            <div style="margin-top:10px;">Условия, на которых собираетесь вести закупку (Орг. %, стоимость доставки, сроки отгрузки и т.д.)</div>
+            <input name="dpn[]" type="hidden" value="Условия закупки" />
+            <textarea cols="20" name="dp[]" rows="5" style="margin-left:-1px;width:100%;height:200px; background:#ffffff;color:#030000;border:1px solid #4640cd;font:13px sans-serif;"></textarea>
+
+            <div style="margin-top:10px;">Являлись ли организатором закупок на других ресурсах (приветствуется), если да - то каких? (ссылки на Ваши закупки)</div>
+            <input name="dpn[]" type="hidden" value="Организатор закупок" />
+            <textarea cols="20" name="dp[]" rows="5" style="margin-left:-1px;width:100%;height:200px; background:#ffffff;color:#030000;border:1px solid #4640cd;font:13px sans-serif;"></textarea>
+
+            <div style="margin-top:10px;">Откуда узнали о нашем сайте</div>
+            <input name="dpn[]" type="hidden" value="Узнали о сайте" />
+            <input maxlength="50" name="dp[]" style="margin-left:-1px;width:100%;height:30px;background:#ffffff;color:#030000;border:1px solid #4640cd;font:13px sans-serif;" type="text" />
+
+            <div style="margin-top:10px;">Сообщение</div>
+            <input name="dpn[]" type="hidden" value="Сообщение" />
+            <textarea cols="50" name="dp[]" rows="5" style="margin-left:-1px;width:100%;height:100px; background:#ffffff;color:#030000;border:1px solid #4640cd;font:13px sans-serif;"></textarea>
+
+            <div style="width:100%;min-height:50px;margin-top:10px;">
+                <a href="http://www.formm.ru/" style="display:block;width:100px;text-align:center;float:right;">форма обратной связи</a>
+                <img alt="formm.refresh" onclick="formm.cap();" src="http://www.formm.ru/refresh/refresh.png" style="border:none;cursor:pointer;margin:9px;float:right;" title="refresh" />
+                <div style="margin-right:160px;">
+                    <div>Проверочный код</div>
+                    <input maxlength="6" name="captcha" style="width:100%;height:30px; background:#ffffff;color:#030000;border:1px solid #4640cd;font:13px sans-serif;" type="text" />
+                </div>
+
+                <div style="width:100%;height:10px;float:left;">&nbsp;</div>
+            </div>
+
+            <div style="margin-top:10px; text-align:center;">
+                <input style="width:155px;height:30px;background:#2445b6;color:#fbfbf9;border-color:#1b4bb0;font:14px sans-serif; cursor:pointer;" type="submit" value="Отправить" />
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="http://www.formm.ru/mail/js/f.p.js"></script>
+</form>
